@@ -1,0 +1,36 @@
+body{
+  /*longueur du corps de la page*/
+  width: 1000px;
+  /*positioner tout ce qui ce trouve dans le corps au centre de la page*/
+  margin: auto;
+  /*couleur du corps*/
+  background: lightblue;
+}
+
+h1{
+  /*aligner le grand titre au centre textes au centre*/
+  text-align: center;
+  /*couleur du dessous*/
+  background: rgb(41, 123, 208);
+  /*style du texte italic*/
+  font-family: fantasy;
+}
+
+#affichage{
+  /*positioner le contenaire au centre de la page*/
+  margin: auto;
+  /*largeur*/
+  width: 400px;
+  /*longueur*/
+  height: 500px;
+  /*aligner les textes au centre*/
+  text-align: center;
+  /*couleur du fond de div la ou s'affiche la reponse*/
+  background: rgb(82, 55, 36)
+}
+
+/*aligner le texte du footer au centre*/
+footer{
+  text-align: center;
+  background: rgb(41, 123, 208);
+}
